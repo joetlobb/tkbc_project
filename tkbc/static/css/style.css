@@ -35,7 +35,7 @@ img {
 
 @media (max-width: 300px) {
   #showcase {
-    background: url(../img/showcase500px.jpg);
+    background: url(../img/showcase968px.jpg);
     background-attachment: fixed; 
     background-repeat: no-repeat; 
     background-size: auto 100%;
