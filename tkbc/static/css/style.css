@@ -15,8 +15,12 @@ img {
   margin-right: 0.4rem; }
 
 #showcase {
-  background: url(../img/showcase.jpg) no-repeat center top/cover;
-  background-position:center;
+  background: url(../img/showcase.jpg) no-repeat fixed center top/cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   min-height: 650px;
   color: #fff;
   padding-top: 7rem; }
