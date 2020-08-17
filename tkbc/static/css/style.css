@@ -35,6 +35,7 @@ img {
 
 @media (max-width: 300px) {
   #showcase {
+    background: url(../img/showcase500px.jpg);
     background-attachment: cover; 
     background-repeat: no-repeat; 
     background-size: auto 100%;
@@ -43,6 +44,7 @@ img {
 }
 @media (min-width: 301px) and (max-width: 600px) {
   #showcase {
+    background: url(../img/showcase800px.jpg);
     background-attachment: cover; 
     background-repeat: no-repeat; 
     background-size: auto 100%;
@@ -51,6 +53,7 @@ img {
 }
 @media (min-width: 601px) and (max-width: 768px) {
   #showcase {
+    background: url(../img/showcase968px.jpg);
     background-attachment: cover; 
     background-repeat: no-repeat; 
     background-size: auto 100%;
