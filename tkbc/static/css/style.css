@@ -35,7 +35,6 @@ img {
 
 @media (max-width: 300px) {
   #showcase {
-    background-image: url(../img/showcase500px.jpg) no-repeat fixed center top/cover;
     background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
