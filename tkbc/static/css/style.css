@@ -17,10 +17,11 @@ img {
 #showcase {
   background: url(../img/showcase.jpg) no-repeat fixed center top/cover;
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @media only screen and (orientation:portrait){
+    background:url("https://s3files.core77.com/blog/images/2013/11/ESB-HalloweenLightShow-1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;           
+  }
   min-height: 650px;
   color: #fff;
   padding-top: 7rem; }
