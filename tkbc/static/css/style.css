@@ -36,6 +36,7 @@ img {
 @media (max-width: 300px) {
   #showcase {
     background: url(../img/showcase500px.jpg) no-repeat fixed center top/cover;
+    background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,6 +47,7 @@ img {
 @media (min-width: 301px) and (max-width: 600px) {
   #showcase {
     background: url(../img/showcase800px.jpg) no-repeat fixed center top/cover;
+    background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,6 +58,7 @@ img {
 @media (min-width: 601px) and (max-width: 768px) {
   #showcase {
     background: url(../img/showcase968px.jpg) no-repeat fixed center top/cover;
+    background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
