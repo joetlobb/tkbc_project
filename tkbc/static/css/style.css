@@ -42,6 +42,7 @@ img {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 300px;
   }
 }
 @media (min-width: 301px) and (max-width: 600px) {
