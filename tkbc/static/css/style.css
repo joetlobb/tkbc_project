@@ -35,35 +35,26 @@ img {
 
 @media (max-width: 300px) {
   #showcase {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-attachment: fixed; 
+    background-position: 50% 0; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
   }
 }
 @media (min-width: 301px) and (max-width: 600px) {
   #showcase {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-attachment: fixed; 
+    background-position: 50% 0; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
   #showcase {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-attachment: fixed; 
+    background-position: 50% 0; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
   }
 }
 
