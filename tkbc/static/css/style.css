@@ -47,7 +47,8 @@ img {
     background-attachment: fixed; 
     background-repeat: no-repeat; 
     background-size: auto 100%;
-    background-position: 50% 0; 
+    background-position: 50% 0;
+    max-height: 500px;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
@@ -56,6 +57,7 @@ img {
     background-repeat: no-repeat; 
     background-size: auto 100%;
     background-position: 50% 0; 
+    max-height: 500px;
   }
 }
 
