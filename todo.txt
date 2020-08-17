@@ -1,0 +1,2 @@
+button for clear search box
+admin staff and superuser

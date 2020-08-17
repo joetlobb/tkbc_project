@@ -14,16 +14,14 @@
     <!-- Lightbox -->
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
 
-    <title>T&K พระเครื่อง Collection</title>
+    <title>TK พระเครื่อง {% block title %}{% endblock %}</title>
 </head>
 <body>
     <!-- Top Bar -->
     {% include 'partials/_topbar.html' %}
     <!-- Nav Bar -->
     {% include 'partials/_navbar.html' %}
-
-    {% block content %} {% endblock %}
-    
+    {% block content %} {% endblock %}  
     <!-- Footer -->
     {% include 'partials/_footer.html' %}
 
