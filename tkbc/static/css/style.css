@@ -39,6 +39,7 @@ img {
     background-repeat: no-repeat; 
     background-size: auto 100%;
     background-position: 50% 0; 
+    max-height: 500px;
   }
 }
 @media (min-width: 301px) and (max-width: 600px) {
