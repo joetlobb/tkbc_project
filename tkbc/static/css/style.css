@@ -18,7 +18,7 @@ img {
   background: url(../img/showcase.jpg) no-repeat fixed center top/cover;
   background-position: center;
   @media only screen and (orientation:portrait){
-    background:url("https://s3files.core77.com/blog/images/2013/11/ESB-HalloweenLightShow-1.jpg") no-repeat center center fixed;
+    background: url(../img/showcase.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;           
   }
