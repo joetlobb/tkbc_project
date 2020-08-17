@@ -44,6 +44,10 @@ img {
 }
 @media (min-width: 301px) and (max-width: 600px) {
   #showcase {
+
+    position: fixed;
+
+    height: 50%;
     z-index: -10;
     background: url(../img/showcase800px.jpg) no-repeat center center;
     -webkit-background-size: cover;
