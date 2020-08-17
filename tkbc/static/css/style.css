@@ -33,6 +33,40 @@ img {
     width: 100%;
     background: rgba(51, 51, 51, 0.8); }
 
+@media (max-width: 300px) {
+  #showcase {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media (min-width: 301px) and (max-width: 600px) {
+  #showcase {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  #showcase {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
 #services {
   background: url(../img/building.jpg) no-repeat fixed center top/cover;
   min-height: 300px;
