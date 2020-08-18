@@ -50,6 +50,10 @@ img {
   body {
     background: url(../img/showcase800px.jpg) no-repeat fixed center top/cover;
     background-size: auto 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
