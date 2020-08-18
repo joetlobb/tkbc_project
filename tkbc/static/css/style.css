@@ -50,14 +50,6 @@ img {
     background-repeat: no-repeat; 
     background-size: auto 100%;
     background-position: 50% 0; 
-
-    
-    
-    
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 120vh;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
