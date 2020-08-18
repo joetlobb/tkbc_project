@@ -48,6 +48,7 @@ img {
     background: transparent
     
   }
+  body {background: url(../img/showcase800px.jpg) fixed no-repeat top/cover;}
 }
 @media (min-width: 601px) and (max-width: 768px) {
   #showcase {
