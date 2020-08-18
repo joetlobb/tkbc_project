@@ -41,9 +41,7 @@ img {
     background-size: auto 100%;
     background-position: 50% 0; 
   }
-  #services {
-    background: url(../img/building500px.jpg) no-repeat cover center top/cover;
-  }
+  
 }
 @media (min-width: 301px) and (max-width: 600px) {
   #showcase {
@@ -54,9 +52,6 @@ img {
     background-size: auto 100%;
     background-position: 50% 0;
   }
-  #services {
-    background: url(../img/building800px.jpg) no-repeat cover center top/cover;
-  }
 }
 @media (min-width: 601px) and (max-width: 768px) {
   #showcase {
@@ -65,9 +60,6 @@ img {
     background-repeat: no-repeat; 
     background-size: auto 100%;
     background-position: 50% 0; 
-  }
-  #services {
-    background: url(../img/building968px.jpg) no-repeat cover center top/cover;
   }
 }
 
