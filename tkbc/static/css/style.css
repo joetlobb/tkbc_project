@@ -45,11 +45,19 @@ img {
 @media (min-width: 301px) and (max-width: 600px) {
   #showcase {
 
-    background: url(../img/showcase800px.jpg) no-repeat center center;
+    background: url(../img/showcase800px.jpg) no-repeat ;
     background-attachment: cover; 
     background-repeat: no-repeat; 
     background-size: auto 100%;
     background-position: 50% 0; 
+
+    display: block;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 120vh;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
